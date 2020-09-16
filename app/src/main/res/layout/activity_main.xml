@@ -44,7 +44,17 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Option"
+            android:text="Select_Option"
+            android:layout_margin="5dp"
+            android:textColor="#fff"
+            android:background="@color/colorPrimaryDark"
+            android:layout_gravity="center"
+            android:textSize="20sp"/>
+        <Button
+            android:id="@+id/btn_option"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option_1"
             android:layout_margin="5dp"
             android:textColor="#fff"
             android:background="@color/colorPrimaryDark"
@@ -53,7 +63,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 1"
+            android:text="آپشن2"
             android:layout_margin="5dp"
             android:textColor="#fff"
             android:background="@color/colorPrimaryDark"
@@ -62,16 +72,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Option 2"
-            android:layout_margin="5dp"
-            android:textColor="#fff"
-            android:background="@color/colorPrimaryDark"
-            android:layout_gravity="center"
-            android:textSize="20sp"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Option 3"
+            android:text="آپشن3"
             android:textColor="#fff"
             android:layout_margin="5dp"
             android:background="@color/colorPrimaryDark"
@@ -81,7 +82,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Option 4"
+                android:text="آپشن4"
                 android:textColor="#fff"
                 android:layout_margin="5dp"
                 android:background="@color/colorPrimaryDark"
